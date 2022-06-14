@@ -1,0 +1,20 @@
+.container{
+	max-width: 1276px;
+	margin: 0 auto;
+}
+.green-btn{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: $blackBlue;
+	background-color: $greenMain;
+	border: none;
+	padding: 16px 24px;
+	border-radius: 4px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+.green-btn:hover{
+	color: $greenMain;
+	background-color: $blackBlue;
+	box-shadow: 0px 0px 1px 1px $greenMain;
+}

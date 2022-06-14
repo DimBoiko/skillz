@@ -1,0 +1,17 @@
+$greenMain :#57D9A6;
+$whiteMain:#F6F6F8;
+$blueMain :#23233B;
+$blackBlue :#1C1C33;
+$gray:#4E4E65;
+$grayLight:#B2B2BF;
+
+@mixin green-line {
+	content: "";
+	position: absolute;
+	top: 30px;
+	display: block;
+	width: 152px;
+	height: 2px;
+	background-color: $greenMain;
+}
+
